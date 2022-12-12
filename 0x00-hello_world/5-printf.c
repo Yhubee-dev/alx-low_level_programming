@@ -5,8 +5,8 @@
  * Return: Always 0 (success)
  * */
 
-int main (void)
+int main(void)
 {
-	printf("with proper grammer,\n
+	printf("with proper grammer,
 	return (0);
 }
