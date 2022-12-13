@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int ten;
+	int tens;
 	int ones;
 	int t;
 	int o;
