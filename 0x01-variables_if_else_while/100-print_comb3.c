@@ -10,7 +10,7 @@ int main(void)
 	int ones;
 	int tens;
 
-	for (ten = '0'; tens <= '9'; tens++) /*ones's ten+1*/
+	for (tens = '0'; tens <= '9'; tens++) /*increment tens*/
 	{
 		for (ones = (tens + 1); ones <= '9'; ones++) /*one's ten+1*/
 		{
@@ -18,7 +18,7 @@ int main(void)
 			putchar (tens);
 			putchar (ones);
 		
-			if (tens != '8' || ones != '9' /*print commas*/
+			if (tens != '8' || ones != '9') /*print commas*/
 			{
 				putchar(',');
 				putchar(' ');
@@ -28,4 +28,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}	
+}
