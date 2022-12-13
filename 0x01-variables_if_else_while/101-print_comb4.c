@@ -11,7 +11,7 @@ int main(void)
 	int ten;
 	int hundred;
 
-	for (hundred = '0'; hundred <= '9';hundred++) /*hundreds place*/
+	for (hundred = '0'; hundred <= '9'; hundred++) /*hundreds place*/
 	{
 		for (one = (hundred + 1); ten <= '9'; ten++) /*tens=200s+1*/
 		{
