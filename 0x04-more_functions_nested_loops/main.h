@@ -1,5 +1,4 @@
-#ifndef main.h
-#define main.h
+
 
 /**
  * _putchar - puts character to standard output
@@ -85,8 +84,4 @@ void print_triangle(int size);
  * @: number to be printed
  */
 
-void print_numbers(int n);
-
-#endif
- 
-
+void print_number(int n);
